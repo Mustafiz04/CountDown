@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#countdown{
+    width: 650px;
+    height: 100px;
+    background-color: #c0392b;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5), 2px 0 5px rgba(0,0,0,0.5), 0 -2px 5px rgba(0,0,0,0.5), -2px 0 5px rgba(0,0,0,0.5);
+    line-height: 100px;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
